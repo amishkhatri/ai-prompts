@@ -76,7 +76,7 @@ namespace RGKTestOpenAI
             static void GetSecrets(out string apiKey, out string apiUrl)
             {
                 // Replace with your actual key vault URL
-                var keyVaultUrl = new Uri("https://entagiliy-kv-openai-key.vault.azure.net/");
+                var keyVaultUrl = new Uri("YOUR LINK");
                 var credential = new DefaultAzureCredential();
 
                 var secretClient = new SecretClient(keyVaultUrl, credential);
